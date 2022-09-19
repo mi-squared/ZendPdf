@@ -22,7 +22,7 @@ use ZendPdf\InternalType;
  */
 abstract class AbstractTrailer
 {
-    private static $_allowedKeys = array('Size', 'Prev', 'Root', 'Encrypt', 'Info', 'ID', 'Index', 'W', 'XRefStm', 'DocChecksum');
+    private static $_allowedKeys = array('Size', 'Prev', 'Root', 'Encrypt', 'Info', 'ID', 'Index', 'W', 'XRefStm', 'DocChecksum', 'Source');
 
     /**
      * Trailer dictionary.
